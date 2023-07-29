@@ -2,7 +2,10 @@
   "name": "nx",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "client:serve": "nx run frontend-client:serve:production",
+    "client:build": "nx run frontend-client:build"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.1.0",
